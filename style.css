@@ -1,0 +1,179 @@
+html{
+    background-color: #fff;
+}
+
+body {
+    color: #404040;
+    margin: 0;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+div, button, span, strong, {
+    font-family: Impact;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(farm.view.JPG);
+    height: 200px;
+    line-height: 200px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*id selector*/
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+#header-a:hover {
+color: #222;
+cursor: pointer;
+}
+
+.centerlist {
+    text-align: center;
+}
+.centerlist ul {
+display: inline;
+}
+
+/*contact form*/
+input[type=text], select, text area {
+    width: 25%;  /*width of the texts*/
+    padding: 12px; /*padding for text box*/
+    border: 1px solid #ccc; /*adds border to
+    the textbox and color*/
+    border-radius: 2px; /*rounding the textbox*/
+    box-sizing: border-box; /*ensures padding 
+    width stay in the the same place*/
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; /*so users can resize vertically*/
+}
+
+        /*styling submit button for contact form*/
+        input[type=submit]{
+            background-color: white;
+            color: #404040;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            Padding: 12px 20px;
+            border-radius: 2px;
+            cursor: pointer; /*changes it to a hand*/
+            } 
+
+        /*hover to change submit button color*/
+            input[type=submit]:hover {
+            background-color:#c0c6cc ; 
+            }        
+
+/*does not seem to work*/
+    textarea[subject]{
+        padding: 12px 20px;
+        border-radius: 8px;
+    }
+        
+
+/* footer */
+footer {
+    background-image: url(bird.JPG);   
+    position: absolute;
+    width: 100%;
+    font: bold 16px sans-serif;
+    /* font-weight: ;
+    font-size:
+    font-family: ; */
+    padding: 55px 50px;
+}
+
+footer .footer-left {
+    width: 40%;
+}
+
+footer .footer-left, footer .footer-right {
+    display: inline-block;
+    vertical-align: center;
+}
+
+footer .footer-links {
+    color: #fff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+/* removes the underline in the link*/
+
+footer .footer-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .footer-name {
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+
+footer .footer-right {
+    width: 35%;
+}
+
+footer .footer-right p{
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
